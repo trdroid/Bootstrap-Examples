@@ -14,3 +14,12 @@ Bootstrap offers two types of containers classes
 
 1. container, which creates a fixed-width container 
 2. container-fluid, which creats a full-width fluid container
+
+Bootstrap offers four types of class prefixes to create columns for different screen sizes.
+
+| class prefix   |      screen size      |  description |
+|----------|:-------------:|------:|
+| col-xs |  < 768px | extra small screens |
+| col-sm |    >= 768px   |   smaller screens |
+| col-md | >= 992px |   medium screens |
+| col-lg | >=1200px |    larger screens |
