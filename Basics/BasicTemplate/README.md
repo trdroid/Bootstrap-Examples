@@ -71,3 +71,7 @@ IE 8 is not capable of handling all HTML 5 and CSS 3 properties that Bootstrap m
   </body>
 </html>
 ```
+
+### Verify
+
+<img src="_misc/check%20to%20see%20if%20files%20were%20delivered.png"/>
