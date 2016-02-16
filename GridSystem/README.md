@@ -39,9 +39,9 @@ Bootstrap offers four types of class prefixes to create columns for different sc
 
 Columns are created by specifying the number of columns (\<=12) to span followed by a screen size's class prefix.
 
-A column attributed with class col-xs-4 inside a row implies that the column occupies 4 out of 12 equal divisions that a row is divided into. 
+A column attributed with a class col-xs-4 inside a row implies that the column occupies 4 out of 12 equal divisions that a row is divided into. 
 
-In the following snippet, a row is 
+In the following snippet, a row is defined to contain 3 columns of equal width (4 each)
 
 ```html
       <div class="container">
@@ -55,6 +55,26 @@ In the following snippet, a row is
           </div>        
 
           <div class="col-xs-4">
+            Column 3
+          </div>                  
+        </div>
+      </div>
+```
+
+Where as, in the following snippet, a row is defined to contain 3 columns of widths 6, 4 and 2.
+
+```html
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            Column 1
+          </div>        
+
+          <div class="col-xs-4">
+            Column 2
+          </div>        
+
+          <div class="col-xs-2">
             Column 3
           </div>                  
         </div>
