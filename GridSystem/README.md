@@ -41,7 +41,7 @@ Columns are created by specifying the number of columns (\<=12) to span followed
 
 A column attributed with a class col-xs-4 inside a row implies that on an extra small display screen, the column should occupy 4 out of 12 equal divisions that a row is divided into.
 
-In the following snippet, a row is defined to contain 3 columns of equal width (4 each)
+In the following snippet, a row is defined to contain 3 columns of equal width (4 each) on an extra small display screen
 
 ```html
       <div class="container">
@@ -61,7 +61,7 @@ In the following snippet, a row is defined to contain 3 columns of equal width (
       </div>
 ```
 
-Where as, in the following snippet, a row is defined to contain 3 columns of widths 6, 4 and 2.
+Where as, in the following snippet, a row is defined to contain 3 columns of widths 6, 4 and 2 on an extra small display screen
 
 ```html
       <div class="container">
@@ -80,3 +80,7 @@ Where as, in the following snippet, a row is defined to contain 3 columns of wid
         </div>
       </div>
 ```
+
+<i>How about for other screen sizes</i>
+
+If class prefixes for other screen sizes are not specified, then Bootstrap will consider the layout specified for the smallest screen size.
