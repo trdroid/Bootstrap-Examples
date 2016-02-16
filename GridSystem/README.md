@@ -85,4 +85,4 @@ Where as, in the following snippet, a row is defined to contain 3 columns of wid
 
 If class prefixes for other screen sizes are not specified, then Bootstrap will consider the layout specified for the smallest screen size.
 
-If any of the above snippets were run on a larger screen, it falls back to col-xs specifications, since that is the smallest screen size configurations provided. 
+If any of the above snippets were displayed on a larger screen, the col-xs specifications are used, since that is the smallest screen size configuration provided. 
