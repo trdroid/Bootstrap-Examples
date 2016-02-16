@@ -14,6 +14,3 @@ Bootstrap offers two types of containers classes
 
 1. container, which creates a fixed-width container 
 2. container-fluid, which creats a full-width fluid container
-
-After defining the rows and columns for a screen, HTML elements can be placed at desired locations. This helps in creating various types of layouts. 
-
