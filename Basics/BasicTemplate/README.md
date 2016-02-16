@@ -72,6 +72,8 @@ IE 8 is not capable of handling all HTML 5 and CSS 3 properties that Bootstrap m
 </html>
 ```
 
+Notice jQuery is included before bootstrap. It is also recommended to include the jQuery inside the body tag rather than the head tag so that it is loaded after all HTML contents are loaded.
+
 ### Verify
 
 <img src="_misc/check%20to%20see%20if%20files%20were%20delivered.png"/>
