@@ -11,6 +11,7 @@ based on the screen (including resized windows) they are displayed on, Bootstrap
 It is recommended to place all the rows and columns inside a container to ensure proper alignment and padding. 
 
 Bootstrap offers two types of containers classes
+
 1. container, which creates a fixed-width container 
 2. container-fluid, which creats a full-width fluid container
 
