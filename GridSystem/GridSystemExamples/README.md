@@ -116,7 +116,7 @@
   </body>
 </html>
 ```
-"Column 3" in third row only has 2 divisions, as a result it got extended and left a blank space. 
+"Column 3" in third row only has 2 divisions, as a result it got extended and left a blank space i.e. "Column 3" required more space to place its content than the 2 divisions, so it got extended down while the first two entries had enough space, which resulted in the white space.
 
 <img src="_misc/index_1.png"/>
 
