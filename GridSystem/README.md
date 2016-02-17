@@ -30,12 +30,16 @@ Bootstrap offers two types of container classes
 
 Bootstrap offers four types of class prefixes to create columns for different screen sizes.
 
-| class prefix   |      screen size      |  description |
+| class prefix   |      screen size     |  description |
 |----------|:-------------:|------:|
 | col-xs |  < 768px | extra small screens |
 | col-sm |    >= 768px   |   smaller screens |
 | col-md | >= 992px |   medium screens |
 | col-lg | >=1200px |    larger screens |
+
+NOTE: The screen size in the table refers to the horizontal dimension.
+
+The vertical height of the window is not taken into account because it is not the rows that dynamically resize based on the screen size, but the columns. 
 
 Columns are created by specifying the number of columns (\<=12) to span followed by a screen size's class prefix.
 
