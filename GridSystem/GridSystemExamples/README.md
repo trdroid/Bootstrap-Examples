@@ -116,12 +116,19 @@
   </body>
 </html>
 ```
+"Column 3" in third row only has 2 divisions, as a result it got extended and left a blank space. 
 
 <img src="_misc/index_1.png"/>
 
+With the window extended, seems normal
+
 <img src="_misc/index_2.png"/>
 
+With the window extended a little more, empty space can be seen in first row, because the content of last 3 columns in first row ("col") is shorter than the others in the row ("column"). The content in the first 9 columns required more space when compared to the content of the last 3, so they extended a little down, while the last 3 did not and left a white space.
+
 <img src="_misc/index_3.png"/>
+
+With the window extended even more, the first 9 columns got enough space to fit in the width as that of the last 3, so the first row seems normal. 
 
 <img src="_misc/index_4.png"/>
 
