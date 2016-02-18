@@ -15,13 +15,22 @@
   </head>
   <body>
     <div class="container">
-      <form class="form">
+      <form class="form-inline">
 
         <!-- username -->
-        <div class="form-group">          
+        <div class="form-group">
           <label for="username">Username</label>
-          <input type="text" id="username" placeholder="username"/>
+          <input type="text" class="form-control" id="username" placeholder="username"/>
         </div>
+
+        <!-- password -->
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="password"/>
+        </div>
+
+        <!-- buttons -->
+        <button type="submit" class="btn btn-primary">Sign in</button>        
 
       </form>    
     </div>
